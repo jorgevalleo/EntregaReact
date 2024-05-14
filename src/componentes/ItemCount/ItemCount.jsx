@@ -9,7 +9,7 @@ function ItemCount(){
     const resta = () => { if (cantidad > 0) setCantidad (cantidad - 1) }
 
     return(  
-
+            
         <>
             <div>ItemCount</div>
             <button onClick={resta}> - </button>
